@@ -1,0 +1,229 @@
+/* GENERAL CONFIGURATION */
+body {
+  background-color: #f0f2f5;
+}
+
+.navbar-brand > img {
+  width: 55px;
+}
+
+.nav-link {
+  border-radius: 0.5em;
+}
+
+#btn__search--sales{
+  background-color: rgba(204, 204, 204, 0.959);
+}
+
+#btn__search--sales:hover{
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container-percentage {
+  
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollme {
+  overflow-x: auto;
+}
+
+.promo-table__title {
+  font-size: 1.3em;
+}
+
+.nav-link:hover {
+  background-color: rgba(204, 204, 204, 0.959);
+}
+
+.btn-dropdow:hover {
+  background-color: rgba(204, 204, 204, 0.959);
+  border-color: transparent;
+}
+
+.btn-dropdow:focus {
+  background-color: rgba(204, 204, 204, 0.959);
+  border-color: transparent;
+}
+
+.btn-dropdow {
+  background-color: transparent;
+  border-color: transparent;
+  margin: 0em 0.5em;
+}
+
+.page-header{
+  min-width: 256px !important;
+}
+
+/* FORM */
+.form__register-admin,
+.form__register-product,
+.table {
+  background-color: hsla(0, 0%, 95%, 0.065);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.5);
+}
+
+.form__tittle {
+  font-size: 1.5em;
+}
+
+/* PAGE-MAIN */
+
+.page-main {
+  min-height: 30em;
+}
+
+.page-main--adminMainView {
+  height: 100%;
+}
+
+.form-group {
+  margin: 1em 0.2em;
+}
+
+/* RESPONSIVE */
+/* @media (max-width: 575.98px) { */
+  .form__log-in,
+  .form__register-admin,
+  .form__register-product,
+  .form__sign-in {
+    width: 85%;
+    height: fit-content;
+    border-radius: 0.8em;
+  }
+
+  .form__sign-in {
+    width: 95%;
+  }
+
+  .form__register-product {
+    width: 95%;
+  }
+
+  .container--one {
+    
+    margin: 1em 0em;
+  }
+
+  .container--two {
+    
+    margin-bottom: 0.2em;
+  }
+
+  .container--three {
+    
+    margin-top: 0.2em;
+  }
+
+  .container--four,
+  .container--three-sign-in {
+    
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+  }
+/* } */
+
+@media (min-width: 575.98px) and (max-width: 991.98px) {
+  .form__log-in,
+  .form__register-admin,
+  .form__register-product,
+  .form__sign-in {
+    width: 50%;
+    height: fit-content;
+    border-radius: 0.8em;
+  }
+
+  .container__cmbx {
+    width: 30% !important;
+    left: 67% !important;
+  }
+
+  .form__sign-in{
+    width: 75%;
+  }
+
+  .promo-table__title {
+    font-size: 1.6em;
+  }
+
+  .form__register-admin,
+  .form__register-product {
+    width: 75%;
+  }
+
+  .container--one {
+    margin: 1em 0em;
+  }
+
+  .container--two {
+    margin-bottom: 0.2em;
+  }
+
+  .container--three {
+    margin-top: 0.2em;
+  }
+
+  .container--four {
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+  }
+
+  .container--four,
+  .container--three-sign-in {
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .form__log-in,
+  .form__register-admin,
+  .form__register-product {
+    max-width: 35em;
+    height: fit-content;
+    border-radius: 0.8em;
+  }
+
+  .form__sign-in{
+    max-width: 50em;
+  }
+
+  .promo-table__title {
+    font-size: 2em;
+  }
+
+  .form__register-admin {
+    max-width: 45em;
+  }
+
+  .form__register-product {
+    max-width: 56em;
+    padding: 2em;
+  }
+
+  .container--one {
+    margin: 1em 0em;
+  }
+
+  .container--two {
+    margin-bottom: 0.2em;
+  }
+
+  .container--three {
+    margin-top: 0.2em;
+  }
+
+  .container--four,
+  .container--three-sign-in {
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+  }
+
+  .container--four-product {
+    margin: 0;
+  }
+}
